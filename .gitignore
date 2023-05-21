@@ -1,8 +1,0 @@
-# dependencies
-/node_modules
-
-/src
-/gulp
-/gulpfile.js
-/img
-/.gitignore
