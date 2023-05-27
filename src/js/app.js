@@ -1,2 +1,3 @@
 import * as flsFunctions from "./files/functions.js";
-flsFunctions.menuInit()
+flsFunctions.menuInit();
+flsFunctions.ibg()

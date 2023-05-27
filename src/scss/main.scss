@@ -1,0 +1,9 @@
+.main {
+	// .main__container
+	&__container {}
+	// .main__body
+	&__body {
+		height: 358px;
+		background-color: #000000;
+	}
+}
