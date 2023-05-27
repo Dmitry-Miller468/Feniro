@@ -190,6 +190,7 @@ body {
 @import "home";
 
 .pade {
+	position: relative;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -211,5 +212,34 @@ body {
 		height: 100%;
 		top: 0;
 		left: 0;
+	}
+}
+
+.messengers {
+	position: fixed;
+	bottom: 0;
+	right:0;
+	// .messengers__body
+	&__body {
+		position: relative;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background: rgba(255, 255, 255, 0.3);
+		box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.15);
+		font-size: 18px;
+		margin: 0px 10px 150px 0px;
+		cursor: pointer;
+	}
+	// .messengers__icons
+	&__icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 40px;
+		height: 40px;
+		position: relative;
+		z-index: 500;
+		color: #ffffff;
 	}
 }
